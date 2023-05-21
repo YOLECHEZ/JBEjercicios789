@@ -1,0 +1,20 @@
+package Ejercicios789;
+
+       //Escribe el código que devuelva una cadena al revés.
+
+public class CadenaReverse {
+
+    public static void main(String[] args) {
+
+        String frase = "";
+        int i;
+
+        frase = "La lluvia en Sevilla es una maravilla";
+
+        for( i = frase.length()- 1; i >= 0;i --){
+            System.out.print(frase.charAt(i));
+        }
+
+        System.out.println("");
+    }
+}
