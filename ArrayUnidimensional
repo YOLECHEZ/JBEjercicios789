@@ -1,0 +1,22 @@
+package Ejercicios789;
+
+public class ArrayUnidimensional {
+
+    //Crea un array unidimensional de Strings y recórrelo,
+    // mostrando únicamente sus valores.
+    
+    public static void main(String[] args) {
+        String usuarios[] = {
+                "Iliana",
+                "Maria",
+                "Sia",
+                "Yonni",
+                "Kiril"
+        };
+
+        for(String i : usuarios){
+            System.out.println(i);
+        }
+
+    }
+}
