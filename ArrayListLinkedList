@@ -1,0 +1,31 @@
+package Ejercicios789;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class ArrayListLinkedList {
+
+    // Crea un ArrayList de tipo String, con 4 elementos. Cópialo en una LinkedList.
+    // Recorre ambos mostrando únicamente el valor de cada elemento.
+    public static void main(String[] args) {
+
+        ArrayList<String> lista = new ArrayList<String>();
+        lista.add("Valencia");
+        lista.add("Alicante");
+        lista.add("Castellon");
+        lista.add("Albacete");
+
+        for (String nombre : lista) {
+            System.out.println(nombre);
+
+        LinkedList<String> listaEnlazada = new LinkedList<String>(lista);
+
+        }
+        for (int i = 0; i < lista.size(); i++){
+            System.out.println(lista.get(i));
+
+
+
+        }
+    }
+}
